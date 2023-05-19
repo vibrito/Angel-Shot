@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBC009452A17235F00A35D34 /* Angel_ShotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC009442A17235F00A35D34 /* Angel_ShotApp.swift */; };
+		EBC009472A17235F00A35D34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC009462A17235F00A35D34 /* ContentView.swift */; };
+		EBC009492A17236000A35D34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBC009482A17236000A35D34 /* Assets.xcassets */; };
+		EBC0094C2A17236100A35D34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBC0094B2A17236100A35D34 /* Preview Assets.xcassets */; };
+		EBC009562A17236100A35D34 /* Angel_ShotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC009552A17236100A35D34 /* Angel_ShotTests.swift */; };
+		EBC009602A17236100A35D34 /* Angel_ShotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC0095F2A17236100A35D34 /* Angel_ShotUITests.swift */; };
+		EBC009622A17236100A35D34 /* Angel_ShotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC009612A17236100A35D34 /* Angel_ShotUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBC009522A17236100A35D34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBC009392A17235F00A35D34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBC009402A17235F00A35D34;
+			remoteInfo = "Angel-Shot";
+		};
+		EBC0095C2A17236100A35D34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBC009392A17235F00A35D34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBC009402A17235F00A35D34;
+			remoteInfo = "Angel-Shot";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBC009412A17235F00A35D34 /* Angel-Shot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Angel-Shot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBC009442A17235F00A35D34 /* Angel_ShotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angel_ShotApp.swift; sourceTree = "<group>"; };
+		EBC009462A17235F00A35D34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EBC009482A17236000A35D34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBC0094B2A17236100A35D34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EBC009512A17236100A35D34 /* Angel-ShotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Angel-ShotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBC009552A17236100A35D34 /* Angel_ShotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angel_ShotTests.swift; sourceTree = "<group>"; };
+		EBC0095B2A17236100A35D34 /* Angel-ShotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Angel-ShotUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBC0095F2A17236100A35D34 /* Angel_ShotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angel_ShotUITests.swift; sourceTree = "<group>"; };
+		EBC009612A17236100A35D34 /* Angel_ShotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angel_ShotUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBC0093E2A17235F00A35D34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC0094E2A17236100A35D34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC009582A17236100A35D34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBC009382A17235F00A35D34 = {
+			isa = PBXGroup;
+			children = (
+				EBC009432A17235F00A35D34 /* Angel-Shot */,
+				EBC009542A17236100A35D34 /* Angel-ShotTests */,
+				EBC0095E2A17236100A35D34 /* Angel-ShotUITests */,
+				EBC009422A17235F00A35D34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBC009422A17235F00A35D34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBC009412A17235F00A35D34 /* Angel-Shot.app */,
+				EBC009512A17236100A35D34 /* Angel-ShotTests.xctest */,
+				EBC0095B2A17236100A35D34 /* Angel-ShotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBC009432A17235F00A35D34 /* Angel-Shot */ = {
+			isa = PBXGroup;
+			children = (
+				EBC009442A17235F00A35D34 /* Angel_ShotApp.swift */,
+				EBC009462A17235F00A35D34 /* ContentView.swift */,
+				EBC009482A17236000A35D34 /* Assets.xcassets */,
+				EBC0094A2A17236100A35D34 /* Preview Content */,
+			);
+			path = "Angel-Shot";
+			sourceTree = "<group>";
+		};
+		EBC0094A2A17236100A35D34 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EBC0094B2A17236100A35D34 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EBC009542A17236100A35D34 /* Angel-ShotTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBC009552A17236100A35D34 /* Angel_ShotTests.swift */,
+			);
+			path = "Angel-ShotTests";
+			sourceTree = "<group>";
+		};
+		EBC0095E2A17236100A35D34 /* Angel-ShotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBC0095F2A17236100A35D34 /* Angel_ShotUITests.swift */,
+				EBC009612A17236100A35D34 /* Angel_ShotUITestsLaunchTests.swift */,
+			);
+			path = "Angel-ShotUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBC009402A17235F00A35D34 /* Angel-Shot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBC009652A17236100A35D34 /* Build configuration list for PBXNativeTarget "Angel-Shot" */;
+			buildPhases = (
+				EBC0093D2A17235F00A35D34 /* Sources */,
+				EBC0093E2A17235F00A35D34 /* Frameworks */,
+				EBC0093F2A17235F00A35D34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Angel-Shot";
+			productName = "Angel-Shot";
+			productReference = EBC009412A17235F00A35D34 /* Angel-Shot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBC009502A17236100A35D34 /* Angel-ShotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBC009682A17236100A35D34 /* Build configuration list for PBXNativeTarget "Angel-ShotTests" */;
+			buildPhases = (
+				EBC0094D2A17236100A35D34 /* Sources */,
+				EBC0094E2A17236100A35D34 /* Frameworks */,
+				EBC0094F2A17236100A35D34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBC009532A17236100A35D34 /* PBXTargetDependency */,
+			);
+			name = "Angel-ShotTests";
+			productName = "Angel-ShotTests";
+			productReference = EBC009512A17236100A35D34 /* Angel-ShotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBC0095A2A17236100A35D34 /* Angel-ShotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBC0096B2A17236100A35D34 /* Build configuration list for PBXNativeTarget "Angel-ShotUITests" */;
+			buildPhases = (
+				EBC009572A17236100A35D34 /* Sources */,
+				EBC009582A17236100A35D34 /* Frameworks */,
+				EBC009592A17236100A35D34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBC0095D2A17236100A35D34 /* PBXTargetDependency */,
+			);
+			name = "Angel-ShotUITests";
+			productName = "Angel-ShotUITests";
+			productReference = EBC0095B2A17236100A35D34 /* Angel-ShotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBC009392A17235F00A35D34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EBC009402A17235F00A35D34 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					EBC009502A17236100A35D34 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = EBC009402A17235F00A35D34;
+					};
+					EBC0095A2A17236100A35D34 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = EBC009402A17235F00A35D34;
+					};
+				};
+			};
+			buildConfigurationList = EBC0093C2A17235F00A35D34 /* Build configuration list for PBXProject "Angel-Shot" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBC009382A17235F00A35D34;
+			productRefGroup = EBC009422A17235F00A35D34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBC009402A17235F00A35D34 /* Angel-Shot */,
+				EBC009502A17236100A35D34 /* Angel-ShotTests */,
+				EBC0095A2A17236100A35D34 /* Angel-ShotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBC0093F2A17235F00A35D34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC0094C2A17236100A35D34 /* Preview Assets.xcassets in Resources */,
+				EBC009492A17236000A35D34 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC0094F2A17236100A35D34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC009592A17236100A35D34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBC0093D2A17235F00A35D34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC009472A17235F00A35D34 /* ContentView.swift in Sources */,
+				EBC009452A17235F00A35D34 /* Angel_ShotApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC0094D2A17236100A35D34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC009562A17236100A35D34 /* Angel_ShotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC009572A17236100A35D34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC009622A17236100A35D34 /* Angel_ShotUITestsLaunchTests.swift in Sources */,
+				EBC009602A17236100A35D34 /* Angel_ShotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBC009532A17236100A35D34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBC009402A17235F00A35D34 /* Angel-Shot */;
+			targetProxy = EBC009522A17236100A35D34 /* PBXContainerItemProxy */;
+		};
+		EBC0095D2A17236100A35D34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBC009402A17235F00A35D34 /* Angel-Shot */;
+			targetProxy = EBC0095C2A17236100A35D34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EBC009632A17236100A35D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBC009642A17236100A35D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBC009662A17236100A35D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Angel-Shot/Preview Content\"";
+				DEVELOPMENT_TEAM = R4L6C6JGYH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vibrito.Angel-Shot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBC009672A17236100A35D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Angel-Shot/Preview Content\"";
+				DEVELOPMENT_TEAM = R4L6C6JGYH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vibrito.Angel-Shot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EBC009692A17236100A35D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R4L6C6JGYH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vibrito.Angel-ShotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Angel-Shot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Angel-Shot";
+			};
+			name = Debug;
+		};
+		EBC0096A2A17236100A35D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R4L6C6JGYH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vibrito.Angel-ShotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Angel-Shot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Angel-Shot";
+			};
+			name = Release;
+		};
+		EBC0096C2A17236100A35D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R4L6C6JGYH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vibrito.Angel-ShotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Angel-Shot";
+			};
+			name = Debug;
+		};
+		EBC0096D2A17236100A35D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R4L6C6JGYH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vibrito.Angel-ShotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Angel-Shot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBC0093C2A17235F00A35D34 /* Build configuration list for PBXProject "Angel-Shot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBC009632A17236100A35D34 /* Debug */,
+				EBC009642A17236100A35D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBC009652A17236100A35D34 /* Build configuration list for PBXNativeTarget "Angel-Shot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBC009662A17236100A35D34 /* Debug */,
+				EBC009672A17236100A35D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBC009682A17236100A35D34 /* Build configuration list for PBXNativeTarget "Angel-ShotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBC009692A17236100A35D34 /* Debug */,
+				EBC0096A2A17236100A35D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBC0096B2A17236100A35D34 /* Build configuration list for PBXNativeTarget "Angel-ShotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBC0096C2A17236100A35D34 /* Debug */,
+				EBC0096D2A17236100A35D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBC009392A17235F00A35D34 /* Project object */;
+}
