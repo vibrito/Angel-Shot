@@ -10,8 +10,9 @@ import SwiftUI
 @main
 struct Angel_ShotApp: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        WindowGroup {            
+            let drinkStorage = DrinkStorage()
+            DrinkList().environmentObject(drinkStorage)
         }
     }
 }
