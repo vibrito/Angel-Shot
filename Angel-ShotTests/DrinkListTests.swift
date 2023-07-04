@@ -31,7 +31,7 @@ final class DrinkListTests: XCTestCase {
     
     func testDrinkList() throws {
         setUp()
-        XCTAssertEqual(app.textFields["name"].label, "Caipirinha")
+        XCTAssertEqual(app.staticTexts["name"].label, "Caipirinha")
     }
 
     func testExample() throws {

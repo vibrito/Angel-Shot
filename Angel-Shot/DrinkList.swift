@@ -23,7 +23,7 @@ struct DrinkList: View {
                 ToolbarItem() {
                     NavigationLink(destination: DrinkDetail(drink: Drink(), newDrink: true)) {
                         Image(systemName: "plus.app.fill")
-                    }
+                    }.accessibilityIdentifier("plus")
                 }
             }
         }
