@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB6009432A5460B7003ECC11 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6009422A5460B7003ECC11 /* Drink.swift */; };
 		EBC009452A17235F00A35D34 /* Angel_ShotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC009442A17235F00A35D34 /* Angel_ShotApp.swift */; };
 		EBC009472A17235F00A35D34 /* DrinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC009462A17235F00A35D34 /* DrinkList.swift */; };
 		EBC009492A17236000A35D34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBC009482A17236000A35D34 /* Assets.xcassets */; };
@@ -14,7 +15,6 @@
 		EBC009562A17236100A35D34 /* Angel_ShotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC009552A17236100A35D34 /* Angel_ShotTests.swift */; };
 		EBC009602A17236100A35D34 /* Angel_ShotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC0095F2A17236100A35D34 /* Angel_ShotUITests.swift */; };
 		EBC009622A17236100A35D34 /* Angel_ShotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC009612A17236100A35D34 /* Angel_ShotUITestsLaunchTests.swift */; };
-		EBC0096F2A17241900A35D34 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC0096E2A17241900A35D34 /* Drink.swift */; };
 		EBC009712A1724D900A35D34 /* DrinkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC009702A1724D900A35D34 /* DrinkDetail.swift */; };
 		EBC009742A17289D00A35D34 /* Drink_Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBC009722A17289D00A35D34 /* Drink_Tracker.xcdatamodeld */; };
 		EBC009762A1728FC00A35D34 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC009752A1728FC00A35D34 /* Persistence.swift */; };
@@ -38,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB6009422A5460B7003ECC11 /* Drink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
 		EBC009412A17235F00A35D34 /* Angel-Shot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Angel-Shot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBC009442A17235F00A35D34 /* Angel_ShotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angel_ShotApp.swift; sourceTree = "<group>"; };
 		EBC009462A17235F00A35D34 /* DrinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkList.swift; sourceTree = "<group>"; };
@@ -48,7 +49,6 @@
 		EBC0095B2A17236100A35D34 /* Angel-ShotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Angel-ShotUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBC0095F2A17236100A35D34 /* Angel_ShotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angel_ShotUITests.swift; sourceTree = "<group>"; };
 		EBC009612A17236100A35D34 /* Angel_ShotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angel_ShotUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		EBC0096E2A17241900A35D34 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Drink.swift; path = ../../Drink.swift; sourceTree = "<group>"; };
 		EBC009702A1724D900A35D34 /* DrinkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetail.swift; sourceTree = "<group>"; };
 		EBC009732A17289D00A35D34 /* Drink_Tracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Drink_Tracker.xcdatamodel; sourceTree = "<group>"; };
 		EBC009752A1728FC00A35D34 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -103,9 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				EBC009442A17235F00A35D34 /* Angel_ShotApp.swift */,
+				EB6009422A5460B7003ECC11 /* Drink.swift */,
 				EBC009462A17235F00A35D34 /* DrinkList.swift */,
 				EBC009702A1724D900A35D34 /* DrinkDetail.swift */,
-				EBC0096E2A17241900A35D34 /* Drink.swift */,
 				EBC009752A1728FC00A35D34 /* Persistence.swift */,
 				EBC009482A17236000A35D34 /* Assets.xcassets */,
 				EBC0094A2A17236100A35D34 /* Preview Content */,
@@ -271,9 +271,9 @@
 			files = (
 				EBC009472A17235F00A35D34 /* DrinkList.swift in Sources */,
 				EBC009742A17289D00A35D34 /* Drink_Tracker.xcdatamodeld in Sources */,
-				EBC0096F2A17241900A35D34 /* Drink.swift in Sources */,
 				EBC009762A1728FC00A35D34 /* Persistence.swift in Sources */,
 				EBC009452A17235F00A35D34 /* Angel_ShotApp.swift in Sources */,
+				EB6009432A5460B7003ECC11 /* Drink.swift in Sources */,
 				EBC009712A1724D900A35D34 /* DrinkDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,6 +440,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,6 +469,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
