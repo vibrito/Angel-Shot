@@ -1,13 +1,18 @@
 //
-//  Angel_ShotTests.swift
+//  DrinkListTests.swift
 //  Angel-ShotTests
 //
-//  Created by Vinicius Brito on 5/19/23.
+//  Created by  on 04/07/23.
 //
 
 import XCTest
+@testable import Angel_Shot
 
-final class Angel_ShotTests: XCTestCase {
+final class DrinkListTests: XCTestCase {
+    
+    private var drinkList: DrinkList!
+    private var drinkStorage: DrinkStorage!
+    private let app = XCUIApplication()
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -15,6 +20,18 @@ final class Angel_ShotTests: XCTestCase {
 
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
+    }
+    
+    override func setUp() {
+        app.launch()
+        
+        super.setUp()
+        drinkStorage.drinks.append(Drink(id: UUID(), name: "Caipirinha"))
+    }
+    
+    func testDrinkList() throws {
+        setUp()
+        XCTAssertEqual(app.textFields["name"].label, "Caipirinha")
     }
 
     func testExample() throws {

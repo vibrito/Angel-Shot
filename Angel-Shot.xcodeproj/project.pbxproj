@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B80F4132A549909002B4F36 /* DrinkListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B80F4122A549909002B4F36 /* DrinkListTests.swift */; };
+		7B80F4152A54991B002B4F36 /* DrinkDetailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B80F4142A54991B002B4F36 /* DrinkDetailTests.swift */; };
 		EB6009432A5460B7003ECC11 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6009422A5460B7003ECC11 /* Drink.swift */; };
 		EBC009452A17235F00A35D34 /* Angel_ShotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC009442A17235F00A35D34 /* Angel_ShotApp.swift */; };
 		EBC009472A17235F00A35D34 /* DrinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC009462A17235F00A35D34 /* DrinkList.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B80F4122A549909002B4F36 /* DrinkListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkListTests.swift; sourceTree = "<group>"; };
+		7B80F4142A54991B002B4F36 /* DrinkDetailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetailTests.swift; sourceTree = "<group>"; };
 		EB6009422A5460B7003ECC11 /* Drink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
 		EBC009412A17235F00A35D34 /* Angel-Shot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Angel-Shot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBC009442A17235F00A35D34 /* Angel_ShotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Angel_ShotApp.swift; sourceTree = "<group>"; };
@@ -126,6 +130,8 @@
 			isa = PBXGroup;
 			children = (
 				EBC009552A17236100A35D34 /* Angel_ShotTests.swift */,
+				7B80F4122A549909002B4F36 /* DrinkListTests.swift */,
+				7B80F4142A54991B002B4F36 /* DrinkDetailTests.swift */,
 			);
 			path = "Angel-ShotTests";
 			sourceTree = "<group>";
@@ -282,7 +288,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B80F4132A549909002B4F36 /* DrinkListTests.swift in Sources */,
 				EBC009562A17236100A35D34 /* Angel_ShotTests.swift in Sources */,
+				7B80F4152A54991B002B4F36 /* DrinkDetailTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,7 +448,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,7 +477,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

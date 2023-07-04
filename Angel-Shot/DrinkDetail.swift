@@ -19,7 +19,7 @@ struct DrinkDetail: View {
             Section {
                 SectionTitle(title: "Name")
 
-                TextField("Drink name", text: $drink.name)
+                TextField("Drink name", text: $drink.name).accessibilityIdentifier("name")
             }
             Section {
                 

@@ -9,13 +9,12 @@ import SwiftUI
 
 struct DrinkList: View {
     @EnvironmentObject var drinkStorage: DrinkStorage
-
     var body: some View {
         NavigationView {
             List {
                 ForEach(drinkStorage.drinks, id: \.self) { currentDrink in
                     NavigationLink(destination: DrinkDetail(drink: currentDrink, newDrink: false)) {
-                            Text(currentDrink.name)
+                            Text(currentDrink.name).accessibilityIdentifier("name")
                         }
                 }.onDelete { indexSet in
                     drinkStorage.drinks.remove(atOffsets: indexSet)
