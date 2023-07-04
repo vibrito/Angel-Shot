@@ -19,23 +19,24 @@ struct DrinkDetail: View {
             Section {
                 SectionTitle(title: "Name")
 
-                TextField("Drink name", text: $drink.name).accessibilityIdentifier("name")
+                TextField("Drink name", text: $drink.name).accessibilityIdentifier("name").disabled(drink.name == "Angel Shot")
             }
             Section {
-                
                 SectionTitle(title: "Ingredients")
-                
-                TextField("Drink ingredients", text: $drink.ingredients)
+                TextField("Drink ingredients", text: $drink.ingredients, axis: .vertical)
+                            .textFieldStyle(.roundedBorder)
+                            .padding()
+                            .disabled(drink.name == "Angel Shot")
             }
             Section {
                 SectionTitle(title: "Price")
 
-                TextField("Drink price", text:  $drink.price)
+                TextField("Drink price", text:  $drink.price).disabled(drink.name == "Angel Shot")
             }
             Section {
                 Button(action: {
                     if self.newDrink {
-                        drinkStorage.drinks.append(drink)
+                        drinkStorage.drinks.insert(drink, at: 0)
                     } else {
                         for x in 0..<self.drinkStorage.drinks.count {
                             if self.drinkStorage.drinks[x].id == drink.id {
