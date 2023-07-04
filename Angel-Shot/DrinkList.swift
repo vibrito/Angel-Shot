@@ -12,13 +12,17 @@ struct DrinkList: View {
 
     var body: some View {
         NavigationView {
-            List(drinkStorage.drinks) { currentDrink in
-                NavigationLink(destination: DrinkDetail(drink: currentDrink)) {
-                    Text(currentDrink.name)
+            List {
+                ForEach(drinkStorage.drinks, id: \.self) { currentDrink in
+                    NavigationLink(destination: DrinkDetail(drink: currentDrink, newDrink: false)) {
+                            Text(currentDrink.name)
+                        }
+                }.onDelete { indexSet in
+                    drinkStorage.drinks.remove(atOffsets: indexSet)
                 }
             }.navigationTitle("Drinks").toolbar {
                 ToolbarItem() {
-                    NavigationLink(destination: DrinkDetail(drink: Drink())) {
+                    NavigationLink(destination: DrinkDetail(drink: Drink(), newDrink: true)) {
                         Image(systemName: "plus.app.fill")
                     }
                 }

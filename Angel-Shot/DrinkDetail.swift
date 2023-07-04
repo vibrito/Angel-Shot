@@ -12,6 +12,7 @@ struct DrinkDetail: View {
     @State var drink: Drink
     @Environment(\.presentationMode) var presentationMode
     @EnvironmentObject var drinkStorage: DrinkStorage
+    let newDrink: Bool
 
     var body: some View {
         List {
@@ -30,6 +31,26 @@ struct DrinkDetail: View {
                 SectionTitle(title: "Price")
 
                 TextField("Drink price", text:  $drink.price)
+            }
+            Section {
+                Button(action: {
+                    if self.newDrink {
+                        drinkStorage.drinks.append(drink)
+                    } else {
+                        for x in 0..<self.drinkStorage.drinks.count {
+                            if self.drinkStorage.drinks[x].id == drink.id {
+                                self.drinkStorage.drinks[x] = self.drink
+                            }
+                        }
+                    }
+                    self.presentationMode.wrappedValue.dismiss()
+                }) {
+                    HStack {
+                        Spacer()
+                        Text("Save")
+                        Spacer()
+                    }
+                }.disabled(drink.name.isEmpty)
             }
         }.listStyle(GroupedListStyle())
     }
